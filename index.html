@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
     <title>Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/borscht.html">Ukrainian Red Borscht Soup</a></li>
-        <li><a href="./recipes/pancakes.html">Pancakes</a></li>
-        <li><a href="./recipes/carbonara.html">Spaghetti Carbonara</a></li>
-    </ul>
+    <header>
+        <h1>Odin Recipes</h1>
+        <h2>Choose what you would like to cook</h2>
+    </header>
+    <main>
+        <ul class="menu">
+            <li class="item">
+                <img width="330" alt="Borscht served with sour cream." src="./images/borscht.png">
+                <a href="./recipes/borscht.html">Ukrainian Red Borscht Soup</a>
+            </li>
+            <li class="item">
+                <img src="./images/carbonara.png" alt="Spaghetti alla carbonara" width="330">
+                <a href="./recipes/pancakes.html">Pancakes</a>
+            </li>
+            <li class="item">
+                <img width="330" alt="Silver dollar pancakes" src="./images/pancakes.png">
+                <a href="./recipes/carbonara.html">Spaghetti Carbonara</a>
+            </li>
+        </ul>
+    </main>
+    <footer>
+    </footer>
 </body>
 </html>
